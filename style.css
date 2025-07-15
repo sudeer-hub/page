@@ -1,0 +1,39 @@
+ body {
+      background: antiquewhite;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .search-wrapper {
+      margin-top: 80px;
+      background: white;
+      border-radius: 12px;
+      padding: 40px 30px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    #searchInput {
+      border-radius: 30px;
+      padding-left: 20px;
+      font-size: 1.1rem;
+    }
+
+    #result {
+      border-radius: 30px;
+      font-weight: bold;
+      transition: all 0.3s ease-in-out;
+    }
+
+    #result:hover {
+      background: grey;
+      color: #000;
+      transform: scale(1.02);
+    }
+
+    #results {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    
